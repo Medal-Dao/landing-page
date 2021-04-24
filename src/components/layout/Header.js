@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Trello Tasks</Link>
+                      <Link to="https://trello.com/b/AHMViusU/medal-dao-community" onClick={closeMenu}>Trello Tasks</Link>
                     </li>
                   </ul>
                   {!hideSignin &&
