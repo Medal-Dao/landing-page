@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import { useTranslation} from 'react-i18next';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -34,6 +35,12 @@ const Header = ({
 
   const nav = useRef(null);
   const hamburger = useRef(null);
+
+  const { t, i18n } = useTranslation('common');
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   useEffect(() => {
     isActive && openMenu();
@@ -112,9 +119,16 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="https://trello.com/b/AHMViusU/medal-dao-community" onClick={closeMenu}>Trello Tasks</Link>
+                      <Link to={t('button.consensus_link')} onClick={closeMenu}>{t('menu.trelloTasks')}</Link>
                     </li>
                   </ul>
+
+                  <button type="button" onClick={() => changeLanguage('en')}>
+                    en
+                  </button>
+                  <button type="button" onClick={() => changeLanguage('cn')}>
+                    cn
+                  </button>
                   {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"

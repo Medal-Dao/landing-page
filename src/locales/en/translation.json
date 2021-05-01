@@ -1,0 +1,31 @@
+{
+  "title": "Medal Dao",
+  "description": "Medal Dao is a decentralized anonymous organization, using NFT medal idendities to demostrate your personal value.",
+  "features": {
+    "title": "Build up the valuable business network",
+    "description": "Medal Dao welcome everyone to join the community. We will employ \"Behaviour Mining\" Model, using the community based measurable tasks to facilitate different business senarios. Related community memebers will get rewarded based on our consensus" 
+  },
+  "menu": {
+    "trelloTasks":"Trello Tasks"
+  },
+  "subFeatures": {
+    "webinor":{
+      "title": "Webinor Workflow",
+      "description": "We will work with our community members to periodically co-organize online webinors."
+    },
+    "roadshow": {
+      "title": "Roadshow",
+      "description": "We will work with our community members to co-organize roadshows."
+    },
+    "dealmacthing": {
+      "title": "Deal Macthing",
+      "description": "After successfully matching the deals, the related community memebers will get rewarded."
+    }
+  },
+  "button":{
+    "consensus":"Check Our Consensus",
+    "consensus_link": "https://trello.com/b/AHMViusU/medal-dao-community",
+    "github": "View on Github",
+    "github_link": "https://github.com/medaldao"
+  }
+}

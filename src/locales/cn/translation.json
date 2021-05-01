@@ -1,0 +1,31 @@
+{
+  "title": "Medal Dao",
+  "description": "Medal Dao 是一个去中心化自制组织，使用NFT荣誉勋章身份来展示你个人的价值。",
+  "features": {
+    "title": "建造价值性商业网络",
+    "description": "Medal Dao 欢迎大家加入社区. 我们利用 \"行为挖矿\" 模式, 利用社区化的可度量的任务模式来赋能力不同的商业场景. 相关的社区成员将会基于自己的贡献获得奖励。"
+  },
+  "menu": {
+    "trelloTasks":"Trello任务"
+  },
+  "subFeatures": {
+    "webinor":{
+      "title": "网络研讨会",
+      "description": "我们会与社区成员合作周期性的共同组织网络研讨会."
+    },
+    "roadshow": {
+      "title": "路演",
+      "description": "我们会与社区成员合作的组织路演活动."
+    },
+    "dealmacthing": {
+      "title": "项目撮合",
+      "description": "对于成功撮合项目的社区成员会有激励"
+    }
+  },
+  "button":{
+    "consensus":"查看共识",
+    "consensus_link": "https://trello.com/b/0l4pSNir/medal-dao-%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA",
+    "github": "查看Github",
+    "github_link": "https://github.com/medaldao"
+  }
+}

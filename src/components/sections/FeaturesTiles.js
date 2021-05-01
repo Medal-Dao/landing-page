@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { useTranslation } from 'react-i18next';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -22,6 +23,7 @@ const FeaturesTiles = ({
   pushLeft,
   ...props
 }) => {
+  const { t } = useTranslation('common');
 
   const outerClasses = classNames(
     'features-tiles section',
@@ -44,9 +46,11 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the valuable business network',
-    paragraph: 'Medal Dao welcome everyone to join the community. We will employ "Behaviour Mining" Model, using the community based measurable tasks to facilitate different business senarios. Related community memebers will get rewarded based on our consensus '
+    title: t('features.title'),
+    paragraph: t('features.description')
   };
+
+  
 
   return (
     <section
@@ -71,10 +75,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Webinor Workflow
+                    {t('subFeatures.webinor.title')}
                     </h4>
                   <p className="m-0 text-sm">
-                    We will work with our community members to periodically co-organize online webinors. 
+                    {t('subFeatures.webinor.description')}
                     </p>
                 </div>
               </div>
@@ -93,10 +97,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Roadshow
+                  {t('subFeatures.roadshow.title')}
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  {t('subFeatures.roadshow.description')}
                     </p>
                 </div>
               </div>
@@ -115,10 +119,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Deal Macthing
+                  {t('subFeatures.dealmacthing.title')}
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  {t('subFeatures.dealmacthing.description')}
                     </p>
                 </div>
               </div>

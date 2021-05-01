@@ -1,11 +1,13 @@
 import React from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const FooterNav = ({
   className,
   ...props
 }) => {
+  const { t } = useTranslation('common');
 
   const classes = classNames(
     'footer-nav',
@@ -25,10 +27,10 @@ const FooterNav = ({
           <Link to="#0">About us</Link>
         </li> */}
         <li>
-          <Link to="#0">Trello Tasks</Link>
+          <Link href={t('button.consensus_link')}>Trello Tasks</Link>
         </li>
         <li>
-          <Link to="#0">Consensus</Link>
+          <Link href={t('button.github_link')}>Github</Link>
         </li>
       </ul>
     </nav>

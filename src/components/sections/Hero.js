@@ -5,6 +5,7 @@ import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
+import { useTranslation } from 'react-i18next';
 // import Modal from '../elements/Modal';
 
 const propTypes = {
@@ -38,6 +39,9 @@ const Hero = ({
   //   setVideomodalactive(false);
   // }   
 
+  const { t } = useTranslation('common');
+
+
   const outerClasses = classNames(
     'hero section center-content',
     topOuterDivider && 'has-top-divider',
@@ -66,15 +70,15 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Medal Dao is a decentralized anonymous organization, using NFT medal idendities to demostrate your personal value. 
+              {t('description')} 
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Check Our Consensus
+                  <Button tag="a" color="primary" wideMobile href={t('button.consensus_link')}>
+                  {t('button.consensus')}
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/medaldao">
-                    View on Github
+                  <Button tag="a" color="dark" wideMobile href={t('button.github_link')}>
+                    {t('button.github')}
                     </Button>
                 </ButtonGroup>
               </div>
