@@ -3,13 +3,35 @@
   "description": "Medal Dao 是一个去中心化自制组织，使用NFT荣誉勋章身份来展示你个人的价值。",
   "features": {
     "title": "建造价值性商业网络",
-    "description": "Medal Dao 欢迎大家加入社区. 我们利用 \"行为挖矿\" 模式, 利用社区化的可度量的任务模式来赋能力不同的商业场景. 相关的社区成员将会基于自己的贡献获得奖励。"
+    "description": "Medal Dao 欢迎大家加入社区. 我们利用 \"行为挖矿\" 模式, 利用社区化的可度量的任务模式来赋能力不同的商业场景. 相关的社区成员将会基于自己的贡献获得奖励。",
+    "feature1": "“信任”的基础",
+    "feature1Desc": "每一项任务的完成情况都会清楚地记录在区块链上，成为个人身份和能力的证明。",
+    "feature2": "激励",
+    "feature2Desc": "完成任务获得的所有积分奖励实际上都可以换成稳定币或主流加密货币。",
+    "feature3": "社区协同",
+    "feature3Desc": "与全球DAO社区合作将大大降低企业的运营和营销成本。"
+  },
+  "workflow": {
+    "title": "有效的工作流程",
+    "description": "如何获得忠诚度积分并兑换奖励？",
+    "step1": "Step1",
+    "step1Title": "铸造Medal NFT",
+    "step1Desc": "Medal NFT 部署在 Matic 网络上，因此先获取 gas，然后转到 Dashboard 再铸造",
+    "step2": "Step2",
+    "step2Title": "搜索任务",
+    "step2Desc": "进入Dashboard任务中心，申请新任务，完成后领取奖励",
+    "step3": "Step3",
+    "step3Title": "兑现奖励",
+    "step3Desc": "转到Dashboard上的交换中心，连接到您的钱包，然后单击交换以兑现"
   },
   "menu": {
-    "trelloTasks":"Trello任务"
+    "trelloTasks": "Trello任务"
   },
   "subFeatures": {
-    "webinor":{
+    "title": "建造价值性商业网络",
+    "description": "Medal Dao 欢迎大家加入社区. 我们利用 \"行为挖矿\" 模式, 利用社区化的可度量的任务模式来赋能力不同的商业场景. 相关的社区成员将会基于自己的贡献获得奖励。",
+
+    "webinor": {
       "title": "网络研讨会",
       "description": "我们会与社区成员合作周期性的共同组织网络研讨会."
     },
@@ -22,8 +44,8 @@
       "description": "对于成功撮合项目的社区成员会有激励"
     }
   },
-  "button":{
-    "consensus":"查看共识",
+  "button": {
+    "consensus": "查看共识",
     "consensus_link": "https://trello.com/b/0l4pSNir/medal-dao-%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA",
     "github": "查看Github",
     "github_link": "https://github.com/medaldao"

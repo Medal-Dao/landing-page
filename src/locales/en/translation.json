@@ -1,15 +1,36 @@
 {
   "title": "Medal Dao",
-  "description": "Medal Dao is a decentralized anonymous organization, using NFT medal idendities to demostrate your personal value.",
+  "description": "Gamify Life on Blockchain! Medal Dao is a decentralized anonymous organization, using NFT medal idendities to demostrate your personal value.",
   "features": {
-    "title": "Build up the valuable business network",
-    "description": "Medal Dao welcome everyone to join the community. We will employ \"Behaviour Mining\" Model, using the community based measurable tasks to facilitate different business senarios. Related community memebers will get rewarded based on our consensus" 
+    "title": "Reshape Human Resource",
+    "description": "Medal DAO is a blockchain powered multi-dimensional decentralized identity system. Medal DAO tracks multiple personalities and values of individuals by publishing tasks and recording the completion of tasks.",
+    "feature1": "The foundation of “trust”",
+    "feature1Desc": "The completion of every task will be clearly recorded on the blockchain and become proof of personal identity and ability.",
+    "feature2": "Incentives",
+    "feature2Desc": "All point rewards obtained by completing tasks can actually be swapped to Stable coins or major cryptocurrencies.",
+    "feature3": "Community Collbaration",
+    "feature3Desc": "Working with a global Dao Community will dramatically reduce the operational and marketing costs for enterprises."
+  },
+  "workflow": {
+    "title": "Workflow that just works",
+    "description": "How to get your loyalty points and liqudate the rewards?",
+    "step1": "Step1",
+    "step1Title": "Mint Medal NFT",
+    "step1Desc": "Medal NFT is deployed on Matic Network, so obtain the gas, then go to Dashboard and Mint",
+    "step2": "Step2",
+    "step2Title": "Searching for Tasks",
+    "step2Desc": "Go to Task Center on Dashboard, applying for a new task. Get the rewareds after completing",
+    "step3": "Step3",
+    "step3Title": "Liqudating the Rewards",
+    "step3Desc": "Go to Swap Center on Dashboard, Connect to your wallet, then click swap to liqudate"
   },
   "menu": {
-    "trelloTasks":"Trello Tasks"
+    "trelloTasks": "Trello Tasks"
   },
   "subFeatures": {
-    "webinor":{
+    "title": "Build up the valuable business network",
+    "description": "Medal Dao welcome everyone to join the community. We will employ \"Behaviour Mining\" Model, using the community based measurable tasks to facilitate different business senarios. Related community memebers will get rewarded based on our consensus",
+    "webinor": {
       "title": "Webinor Workflow",
       "description": "We will work with our community members to periodically co-organize online webinors."
     },
@@ -22,8 +43,8 @@
       "description": "After successfully matching the deals, the related community memebers will get rewarded."
     }
   },
-  "button":{
-    "consensus":"Check Our Consensus",
+  "button": {
+    "consensus": "Check Our Consensus",
     "consensus_link": "https://trello.com/b/AHMViusU/medal-dao-community",
     "github": "View on Github",
     "github_link": "https://github.com/medaldao"

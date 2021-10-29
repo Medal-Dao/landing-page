@@ -7,11 +7,11 @@ import { useTranslation } from 'react-i18next';
 
 const propTypes = {
   ...SectionTilesProps.types
-}
+};
 
 const defaultProps = {
   ...SectionTilesProps.defaults
-}
+};
 const FeaturesTiles = ({
   className,
   topOuterDivider,
@@ -50,18 +50,12 @@ const FeaturesTiles = ({
     paragraph: t('features.description')
   };
 
-  
-
   return (
-    <section
-      {...props}
-      className={outerClasses}
-    >
+    <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
-
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -70,21 +64,21 @@ const FeaturesTiles = ({
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
                       width={64}
-                      height={64} />
+                      height={64}
+                    />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    {t('subFeatures.webinor.title')}
-                    </h4>
-                  <p className="m-0 text-sm">
-                    {t('subFeatures.webinor.description')}
-                    </p>
+                  <h4 className="mt-0 mb-8">{t('features.feature1')}</h4>
+                  <p className="m-0 text-sm">{t('features.feature1Desc')}</p>
                 </div>
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="400"
+            >
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -92,16 +86,13 @@ const FeaturesTiles = ({
                       src={require('./../../assets/images/feature-tile-icon-03.svg')}
                       alt="Features tile icon 03"
                       width={64}
-                      height={64} />
+                      height={64}
+                    />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                  {t('subFeatures.roadshow.title')}
-                    </h4>
-                  <p className="m-0 text-sm">
-                  {t('subFeatures.roadshow.description')}
-                    </p>
+                  <h4 className="mt-0 mb-8">{t('features.feature2')}</h4>
+                  <p className="m-0 text-sm">{t('features.feature2Desc')}</p>
                 </div>
               </div>
             </div>
@@ -114,16 +105,13 @@ const FeaturesTiles = ({
                       src={require('./../../assets/images/feature-tile-icon-04.svg')}
                       alt="Features tile icon 04"
                       width={64}
-                      height={64} />
+                      height={64}
+                    />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                  {t('subFeatures.dealmacthing.title')}
-                    </h4>
-                  <p className="m-0 text-sm">
-                  {t('subFeatures.dealmacthing.description')}
-                    </p>
+                  <h4 className="mt-0 mb-8">{t('features.feature3')}</h4>
+                  <p className="m-0 text-sm">{t('features.feature3Desc')}</p>
                 </div>
               </div>
             </div>
@@ -193,13 +181,12 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div> */}
-
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
 FeaturesTiles.propTypes = propTypes;
 FeaturesTiles.defaultProps = defaultProps;
